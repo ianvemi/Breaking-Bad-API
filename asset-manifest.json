@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Breaking-Bad-API/static/css/main.26c6b48e.chunk.css",
+    "main.js": "/Breaking-Bad-API/static/js/main.0c7e226a.chunk.js",
+    "main.js.map": "/Breaking-Bad-API/static/js/main.0c7e226a.chunk.js.map",
+    "runtime-main.js": "/Breaking-Bad-API/static/js/runtime-main.5c093f95.js",
+    "runtime-main.js.map": "/Breaking-Bad-API/static/js/runtime-main.5c093f95.js.map",
+    "static/js/2.77cd1f27.chunk.js": "/Breaking-Bad-API/static/js/2.77cd1f27.chunk.js",
+    "static/js/2.77cd1f27.chunk.js.map": "/Breaking-Bad-API/static/js/2.77cd1f27.chunk.js.map",
+    "static/js/3.ccedb713.chunk.js": "/Breaking-Bad-API/static/js/3.ccedb713.chunk.js",
+    "static/js/3.ccedb713.chunk.js.map": "/Breaking-Bad-API/static/js/3.ccedb713.chunk.js.map",
+    "index.html": "/Breaking-Bad-API/index.html",
+    "static/css/main.26c6b48e.chunk.css.map": "/Breaking-Bad-API/static/css/main.26c6b48e.chunk.css.map",
+    "static/js/2.77cd1f27.chunk.js.LICENSE.txt": "/Breaking-Bad-API/static/js/2.77cd1f27.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Breaking-Bad-API/static/media/cooper.0e996d29.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c093f95.js",
+    "static/js/2.77cd1f27.chunk.js",
+    "static/css/main.26c6b48e.chunk.css",
+    "static/js/main.0c7e226a.chunk.js"
+  ]
+}
