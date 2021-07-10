@@ -1,0 +1,302 @@
+@font-face{
+    font-family: 'cooper';
+    src: url(./font/cooper.ttf) format('truetype');
+}
+
+body::-webkit-scrollbar{
+    width: 0.4rem;
+    background-color: #06662A;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #1a1a1a;
+    border-radius: 5rem;
+}
+
+*::selection {
+    background:#06662A;
+    color: rgb(241, 241, 241);
+    
+}
+
+
+button{
+    font-family: 'cooper';
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.226);
+    backdrop-filter: blur(15px);
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem;
+    margin: 1rem;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+    transition: all 200ms;
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgba(2, 139, 43, 0.418);
+    cursor: pointer;
+}
+
+body{
+    font-family: 'cooper';
+    background: url("./img/background.webp");
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.253);
+    backdrop-filter: blur(15px);
+    
+}
+
+img{
+    width: 20%;
+    margin: 1rem;
+}
+
+h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 5rem;
+}
+
+
+.buttons{
+    background-color: rgba(0, 0, 0, 0.233);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    background-color: rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(15px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: fit-content;
+
+}
+
+.quote h3{
+    background-color: rgba(3, 83, 39, 0.63);
+    backdrop-filter: blur(15px);
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.quote p{
+    color: white;
+    font-size: 2rem;
+    padding: 4rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote span{
+    font-size: 1.5rem;
+    display: block;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.575);
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.character{
+    flex-basis: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height: auto;
+
+}
+
+.character h2{
+    background-color: rgba(4, 83, 37, 0.849);
+    color: white;
+    font-weight: 100;
+    padding: 1rem;
+    margin: 0;
+}
+
+.character h3{
+    background-color: rgba(26, 26, 26, 0.849);
+    color: white;
+    font-weight: 100;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.character p{
+    color: rgba(240, 255, 255, 0);
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+
+
+.background{
+    background-color: rgba(37, 37, 37, 0.39);
+    flex-basis: 30%;
+    background-size:contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    filter: grayscale(100%);
+    transition: all 400ms;
+}
+
+p{
+    padding: 1rem;
+}
+
+.background:hover{
+    filter: none;
+    transform: scale(1.05);
+    background-color: rgb(37, 37, 37);
+}
+
+.background:hover h1{
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.background:hover p{
+    color: white;
+    padding: 1rem;
+}
+
+.filters{
+    background-color:rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.episode{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    background-color: rgba(27, 27, 27, 0.774);
+    margin-top: 2rem;
+    margin-right: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.episode h2{
+    background-color: rgba(5, 114, 54, 0.836);
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.episode h2 span{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.episode p{
+    color: azure;
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.episode p span{
+    display: block;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+@media (max-width:1440px){
+    .episode{
+        flex-basis: 30%;
+    }
+}
+   
+    
+@media (max-width:900px){
+    img{
+        width: 40%;
+    }
+
+    .episode{
+        flex-basis: 45%;
+        width: fit-content;
+    }
+
+    .background{
+        flex-basis: 40%;
+    }
+
+    
+}
+
+@media (max-width:750px){
+    img{
+        width: 50%;
+    }
+
+    .episode{
+        flex-basis: 100%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .background{
+        flex-basis: 100%;
+        background-position-x: left;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    
+    
+}
+
